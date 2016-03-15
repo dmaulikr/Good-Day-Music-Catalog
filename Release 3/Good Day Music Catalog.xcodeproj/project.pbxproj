@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2331B2041B67F0A500A135E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331B2031B67F0A500A135E7 /* AppDelegate.swift */; };
+		2331B2061B67F0A500A135E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331B2051B67F0A500A135E7 /* ViewController.swift */; };
+		2331B2091B67F0A500A135E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2331B2071B67F0A500A135E7 /* Main.storyboard */; };
+		2331B20B1B67F0A500A135E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2331B20A1B67F0A500A135E7 /* Assets.xcassets */; };
+		2331B20E1B67F0A500A135E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2331B20C1B67F0A500A135E7 /* LaunchScreen.storyboard */; };
+		2331B21C1B67FB8000A135E7 /* well done.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2331B21B1B67FB8000A135E7 /* well done.jpg */; };
+		2331B2201B68018200A135E7 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331B21F1B68018200A135E7 /* Exercise.swift */; };
+		2331B2221B68026A00A135E7 /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331B2211B68026A00A135E7 /* ExerciseData.swift */; };
+		2331B2241B6805E300A135E7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331B2231B6805E300A135E7 /* DetailsViewController.swift */; };
+		23CFE05F1B6BE5D300272727 /* jumping jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23CFE05E1B6BE5D300272727 /* jumping jack.jpg */; };
+		23CFE0621B6BE5FA00272727 /* break.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23CFE0611B6BE5FA00272727 /* break.jpg */; };
+		23CFE0661B6BED8C00272727 /* workout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23CFE0651B6BED8C00272727 /* workout.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2331B2001B67F0A500A135E7 /* Good Day Music Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Day Music Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2331B2031B67F0A500A135E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2331B2051B67F0A500A135E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2331B2081B67F0A500A135E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2331B20A1B67F0A500A135E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2331B20D1B67F0A500A135E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2331B20F1B67F0A500A135E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2331B21B1B67FB8000A135E7 /* well done.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "well done.jpg"; sourceTree = "<group>"; };
+		2331B21F1B68018200A135E7 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		2331B2211B68026A00A135E7 /* ExerciseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		2331B2231B6805E300A135E7 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		23CFE05E1B6BE5D300272727 /* jumping jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jumping jack.jpg"; sourceTree = "<group>"; };
+		23CFE0611B6BE5FA00272727 /* break.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = break.jpg; sourceTree = "<group>"; };
+		23CFE0651B6BED8C00272727 /* workout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = workout.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2331B1FD1B67F0A500A135E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2331B1F71B67F0A500A135E7 = {
+			isa = PBXGroup;
+			children = (
+				2331B2021B67F0A500A135E7 /* 7MinuteWorkout */,
+				2331B2011B67F0A500A135E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2331B2011B67F0A500A135E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2331B2001B67F0A500A135E7 /* Good Day Music Catalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2331B2021B67F0A500A135E7 /* 7MinuteWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				23CFE0601B6BE5D800272727 /* Images */,
+				2331B2031B67F0A500A135E7 /* AppDelegate.swift */,
+				2331B2051B67F0A500A135E7 /* ViewController.swift */,
+				2331B2071B67F0A500A135E7 /* Main.storyboard */,
+				2331B20A1B67F0A500A135E7 /* Assets.xcassets */,
+				2331B20C1B67F0A500A135E7 /* LaunchScreen.storyboard */,
+				2331B20F1B67F0A500A135E7 /* Info.plist */,
+				2331B21F1B68018200A135E7 /* Exercise.swift */,
+				2331B2211B68026A00A135E7 /* ExerciseData.swift */,
+				2331B2231B6805E300A135E7 /* DetailsViewController.swift */,
+			);
+			path = 7MinuteWorkout;
+			sourceTree = "<group>";
+		};
+		23CFE0601B6BE5D800272727 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				23CFE0611B6BE5FA00272727 /* break.jpg */,
+				23CFE0651B6BED8C00272727 /* workout.jpg */,
+				23CFE05E1B6BE5D300272727 /* jumping jack.jpg */,
+				2331B21B1B67FB8000A135E7 /* well done.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2331B1FF1B67F0A500A135E7 /* Good Day Music Catalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2331B2121B67F0A500A135E7 /* Build configuration list for PBXNativeTarget "Good Day Music Catalog" */;
+			buildPhases = (
+				2331B1FC1B67F0A500A135E7 /* Sources */,
+				2331B1FD1B67F0A500A135E7 /* Frameworks */,
+				2331B1FE1B67F0A500A135E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good Day Music Catalog";
+			productName = 7MinuteWorkout;
+			productReference = 2331B2001B67F0A500A135E7 /* Good Day Music Catalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2331B1F81B67F0A500A135E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Good Day Music";
+				TargetAttributes = {
+					2331B1FF1B67F0A500A135E7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PD9W33H4SM;
+					};
+				};
+			};
+			buildConfigurationList = 2331B1FB1B67F0A500A135E7 /* Build configuration list for PBXProject "Good Day Music Catalog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2331B1F71B67F0A500A135E7;
+			productRefGroup = 2331B2011B67F0A500A135E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2331B1FF1B67F0A500A135E7 /* Good Day Music Catalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2331B1FE1B67F0A500A135E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2331B20E1B67F0A500A135E7 /* LaunchScreen.storyboard in Resources */,
+				2331B20B1B67F0A500A135E7 /* Assets.xcassets in Resources */,
+				2331B21C1B67FB8000A135E7 /* well done.jpg in Resources */,
+				23CFE05F1B6BE5D300272727 /* jumping jack.jpg in Resources */,
+				23CFE0661B6BED8C00272727 /* workout.jpg in Resources */,
+				2331B2091B67F0A500A135E7 /* Main.storyboard in Resources */,
+				23CFE0621B6BE5FA00272727 /* break.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2331B1FC1B67F0A500A135E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2331B2061B67F0A500A135E7 /* ViewController.swift in Sources */,
+				2331B2041B67F0A500A135E7 /* AppDelegate.swift in Sources */,
+				2331B2201B68018200A135E7 /* Exercise.swift in Sources */,
+				2331B2221B68026A00A135E7 /* ExerciseData.swift in Sources */,
+				2331B2241B6805E300A135E7 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2331B2071B67F0A500A135E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2331B2081B67F0A500A135E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2331B20C1B67F0A500A135E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2331B20D1B67F0A500A135E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2331B2101B67F0A500A135E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2331B2111B67F0A500A135E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2331B2131B67F0A500A135E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = 7MinuteWorkout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pJamesAvakian.myApps.GoodDayMusicCatalog;
+				PRODUCT_NAME = "Good Day Music Catalog";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2331B2141B67F0A500A135E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = 7MinuteWorkout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pJamesAvakian.myApps.GoodDayMusicCatalog;
+				PRODUCT_NAME = "Good Day Music Catalog";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2331B1FB1B67F0A500A135E7 /* Build configuration list for PBXProject "Good Day Music Catalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2331B2101B67F0A500A135E7 /* Debug */,
+				2331B2111B67F0A500A135E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2331B2121B67F0A500A135E7 /* Build configuration list for PBXNativeTarget "Good Day Music Catalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2331B2131B67F0A500A135E7 /* Debug */,
+				2331B2141B67F0A500A135E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2331B1F81B67F0A500A135E7 /* Project object */;
+}
